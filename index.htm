@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>びっくりサイト</title>
+<style>
+body{
+    font-family:sans-serif;
+    text-align:center;
+    margin-top:100px;
+}
+h1{color:red;}
+</style>
+</head>
+<body>
+
+<h1>⚠️ 警告 ⚠️</h1>
+<p>あなたのスマホを乗っ取りました。</p>
+<p>1時間以内に10万円払ってください。</p>
+
+<script>
+setTimeout(() => {
+    document.body.innerHTML = `
+        <h1>😂 ドッキリでした！</h1>
+        <p>本当に請求はありません。</p>
+    `;
+}, 3000);
+</script>
+
+</body>
+</html>
